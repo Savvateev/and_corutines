@@ -96,7 +96,6 @@ class PostViewModel(application: Application) : AndroidViewModel(application) {
                 _dataState.value = FeedModelState(error = true)
             }
         }
-        refreshPosts()
     }
 
     fun removeById(id: Long) {
